@@ -1,0 +1,66 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Gochi Hand", cursive;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f1f5f8;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+  background-color: #5d9cec;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.form label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5d9cec;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  text-decoration: line-through;
+}
